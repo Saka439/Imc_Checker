@@ -1,0 +1,2 @@
+Imc_Checker est une application conçue pour calculer l'Indice de Masse Corporelle (IMC) d'un individu en utilisant la classe QObject de Qt. Ce projet personnel est destiné à démontrer la simplicité et l'efficacité de l'utilisation de QObject dans le développement d'applications Qt.
+L'IMC est une mesure utilisée pour déterminer si une personne a un poids santé par rapport à sa taille. Imc_Checker permet aux utilisateurs de saisir leur poids et leur taille pour obtenir leur IMC et interpréter ce résultat en fonction des standards de l'Organisation mondiale de la santé (OMS).
