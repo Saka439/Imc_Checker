@@ -1,10 +1,5 @@
 #include "IMC.hpp"
 
-
-//slots:
-
-
-
 void IMC::afficherImc(double Imc) {
     if (Imc < 18.5) {
         cout << "Vous etes maigre" << endl;
@@ -21,10 +16,7 @@ void IMC::afficherImc(double Imc) {
 }
 
 double IMC::calculerImc1() {
-    /*cout << "------Entrez votre poids en kilogrammes------" << endl;
-    cin >> poids_;
-    cout << "******Entrez votre taille en metres*****" << endl;
-    cin >> taille_;*/
+    
     double Imc = poids_ / (taille_ * taille_);
    
     afficherImc(Imc);
@@ -33,10 +25,7 @@ double IMC::calculerImc1() {
 }
 
 double IMC::calculerImc2() {
-   /* cout << "------Entrez votre poids en livres(lbs)------" << endl;
-    cin >> poids_;
-    cout << "******Entrez votre taille en pieds(ft)*****" << endl;
-    cin >> taille_;*/
+  
     poids_ = poids_ / 2.20462;
     taille_ = taille_ / 3.2808;
     double Imc = poids_ / (taille_ * taille_);
